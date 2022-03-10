@@ -13,38 +13,33 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    /*width: 320px;
-    height: 960px;*/
-    background-color: #273746;
-}
-
 main {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    /*justify-content: center;*/
+    width: 100%;
     min-width: 230px;
-    max-width: 320px;
-    width: 90%;
+    max-width: 640px;
     height: 960px;
-    /*position: relative;*/
-    border: 1px dashed var(--bordes);
+    background-color: #273746;
+    /*border: 1px dashed var(--bordes);*/
 }
 
 main .main--div {
     order: 1;
-    /*align-self: self;*/
+    align-self: center;
     display: flex;
     justify-content: center;
-    max-width: 300px;
-    min-width: 150px;
+    width: 50%;
+    max-width: 320px;
+    min-width: 160px;
     height: 30px;
-    border: 1px dashed var(--bordes);
+    background-color: #2980B9;
+    /*border: 1px dashed var(--bordes);*/
 }
 
 main .main--div p {
-    font-size: 12px;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: underline;
     color: white;
@@ -59,11 +54,13 @@ main .recipe {
 main .recipe h4 {
     margin-left: 5px;
     margin-bottom: 5px;
+    font-size: 1.8rem;
     color: #2980B9;
 }
 
 main .recipe p {
     margin-left: 5px;
+    font-size: 1.6rem;
     color: #F5B041;
 }
 
@@ -75,6 +72,7 @@ main .recipe .ingredientes {
  main .recipe .ingredientes li {
      text-align: justify;
      margin-left: 10px;
+     font-size: 1.3rem;
  }
 
 main .recipe .elaboracion {
@@ -85,4 +83,5 @@ main .recipe .elaboracion {
 main .recipe .elaboracion li {
     text-align: justify;
     margin-left: 10px;
+    font-size: 1.3rem;
 }
