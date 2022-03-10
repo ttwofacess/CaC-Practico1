@@ -85,3 +85,9 @@ main .recipe .elaboracion li {
     margin-left: 10px;
     font-size: 1.3rem;
 }
+
+/*@media screen and (min-width: 425px) {
+    main .recipe .ingredientes li {
+        font-size: 1.8rem;
+    }
+}*/

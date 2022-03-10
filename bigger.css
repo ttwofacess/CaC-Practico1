@@ -1,0 +1,11 @@
+main .recipe p {
+    font-size: 1.9rem;
+}
+
+main .recipe .ingredientes li {
+    font-size: 1.8rem;
+}
+
+main .recipe .elaboracion li {
+    font-size: 1.8rem;
+}
