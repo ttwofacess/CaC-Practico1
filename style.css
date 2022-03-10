@@ -1,0 +1,88 @@
+:root {
+    /*Colores*/
+    --bordes: #F4D03F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*width: 320px;
+    height: 960px;*/
+    background-color: #273746;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    /*justify-content: center;*/
+    min-width: 230px;
+    max-width: 320px;
+    width: 90%;
+    height: 960px;
+    /*position: relative;*/
+    border: 1px dashed var(--bordes);
+}
+
+main .main--div {
+    order: 1;
+    /*align-self: self;*/
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 150px;
+    height: 30px;
+    border: 1px dashed var(--bordes);
+}
+
+main .main--div p {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    /*border: 1px dashed var(--bordes);*/
+}
+
+main .recipe {
+    order: 2;
+    margin-top: 10px;
+}
+
+main .recipe h4 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #2980B9;
+}
+
+main .recipe p {
+    margin-left: 5px;
+    color: #F5B041;
+}
+
+main .recipe .ingredientes {
+    list-style-position: inside;
+    color: #A569BD;
+}
+
+ main .recipe .ingredientes li {
+     text-align: justify;
+     margin-left: 10px;
+ }
+
+main .recipe .elaboracion {
+    list-style-position: inside;
+    color: #2ECC71;
+}
+
+main .recipe .elaboracion li {
+    text-align: justify;
+    margin-left: 10px;
+}
